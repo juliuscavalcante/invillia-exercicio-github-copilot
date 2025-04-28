@@ -30,6 +30,11 @@ document.addEventListener("DOMContentLoaded", () => {
             ${details.participants.map(participant => `
               <li class="participant-item">
                 <span class="participant-name">${participant.name}</span>
+                <span class="participant-email">(${participant.email})</span>
+              </li>
+            `).join("")}
+          </ul>
+        `;
 
         activitiesList.appendChild(activityCard);
 
