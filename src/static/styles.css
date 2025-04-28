@@ -78,38 +78,38 @@ section h3 {
   margin-top: 10px;
   padding: 15px;
   list-style-type: none;
-  background-color: #f9fbe7;
-  border: 1px solid #c0ca33;
+  background-color: #f4f9f4;
+  border: 1px solid #a5d6a7;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .activity-card ul li {
   margin-bottom: 10px;
-  padding: 8px 12px;
+  padding: 10px 15px;
   font-size: 14px;
-  color: #33691e;
+  color: #2e7d32;
   font-weight: bold;
-  border-bottom: 1px solid #dcedc8;
-  border-radius: 3px;
+  background-color: #e8f5e9;
+  border-radius: 4px;
   transition: background-color 0.3s, transform 0.2s;
 }
 
 .activity-card ul li:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .activity-card ul li:hover {
-  background-color: #dcedc8;
-  transform: scale(1.02);
+  background-color: #c8e6c9;
+  transform: scale(1.03);
   cursor: pointer;
 }
 
 .activity-card ul li span {
-  color: #558b2f;
+  color: #1b5e20;
   font-weight: normal;
   font-style: italic;
-  margin-left: 5px;
+  margin-left: 8px;
 }
 
 .form-group {
